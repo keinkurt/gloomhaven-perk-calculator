@@ -103,6 +103,10 @@ export const PERK_LIST = {
     char.ignoreNegItemEffects = true;
     char.deck.addCard('+1', 'None', 2);
   },
+  'Ignore negative item effects and remove one (-1) card': (char: Character) => {
+    char.ignoreNegItemEffects = true;
+    char.deck.addCard('-1', 'None', -1);
+  },
   'Remove four (+0) cards': (char: Character) => { char.deck.addCard('+0', 'None', -4); },
   'Remove two (-1) cards': (char: Character) => { char.deck.addCard('-1', 'None', -2); },
   'Remove one (-2) card': (char: Character) => { char.deck.addCard('-2', 'None', -1); },
@@ -137,6 +141,10 @@ export const PERK_LIST = {
   'Replace one (+0) card with one (+2) WOUND card': (char: Character) => {
     char.deck.addCard('+0', 'None', -1);
     char.deck.addCard('+2', 'Wound', 1);
+  },
+  'Replace one (-1) card with one (+0) WOUND card': (char: Character) => {
+    char.deck.addCard('-1', 'None', -1);
+    char.deck.addCard('+0', 'Wound', 1);
   },
   'Replace one (+0) card with one (+2) POISON card': (char: Character) => {
     char.deck.addCard('+0', 'None', -1);
@@ -181,6 +189,10 @@ export const PERK_LIST = {
   'Replace one (+0) card with one (+1) Shield 1, Affect any ally card': (char: Character) => {
     char.deck.addCard('+0', 'None', -1);
     char.deck.addCard('+1', 'Shield 1, Affect any ally', 1);
+  },
+  'Replace one (-1) card with one rolling Shield 1 card': (char: Character) => {
+    char.deck.addCard('-1', 'None', -1);
+    char.deck.addEffect('Shield 1', 1);
   },
   'Replace one (+0) card with one (+1) POISON card': (char: Character) => {
     char.deck.addCard('+0', 'None', -1);
@@ -265,6 +277,17 @@ export const PERK_LIST = {
     char.deck.addCard('+0', 'Frost', 1);
     char.deck.addCard('+0', 'Wind', 1);
   },
+  'Replace one (+0) card with one (+1) Add +1 Attack for each adjacent to the target card': (char: Character) => {
+    char.deck.addCard('+0', 'None', -1);
+    char.deck.addCard('+1', '+1 Attack for each adjacent to the target', 1);
+  },
+  'Add one (+1) DISARM card': (char: Character) => {
+    char.deck.addCard('+1', 'Disarm', 1);
+  },
+  // Effect only perks
+  'Add one (+2) PUSH 1 card': (char: Character) => {
+    char.deck.addCard('+2', 'Push 1', 1);
+  },
   // Effect only perks
   'Add two rolling PUSH 2 cards': (char: Character) => { char.deck.addEffect('Rolling Push 2', 2); },
   'Add two rolling EARTH cards': (char: Character) => { char.deck.addEffect('Rolling Earth', 2); },
@@ -311,5 +334,6 @@ export const PERK_LIST = {
   'Add three rolling PUSH 1 cards': (char: Character) => { char.deck.addEffect('Rolling Push 1', 3); },
   'Add three rolling PULL 1 cards': (char: Character) => { char.deck.addEffect('Rolling Pull 1', 3); },
   'Add three rolling MUDDLE cards': (char: Character) => { char.deck.addEffect('Rolling Muddle', 3); },
-  'Add three rolling POISON cards': (char: Character) => { char.deck.addEffect('Rolling Poison', 3); }
+  'Add three rolling POISON cards': (char: Character) => { char.deck.addEffect('Rolling Poison', 3); },
+  'At the end of each of your long rests, grant one ally within Range 3, Move 2': (char: Character) => {}
 };

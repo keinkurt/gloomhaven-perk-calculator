@@ -1,482 +1,1288 @@
 {
-    "characters": [
+  "characters": [
+    {
+      "name": "Cragheart",
+      "hidden_name": "Cragheart",
+      "icon": "cragheart.svg",
+      "from_game": "Gloomhaven Base",
+      "perks": [
         {
-            "name": "Cragheart",
-            "hidden_name": "Cragheart",
-            "icon": "cragheart.svg",
-            "from_game": "Gloomhaven Base",
-            "perks": [
-                {"name": "Remove four (+0) cards", "uses": 1},
-                {"name": "Replace one (-1) card with one (+1) card", "uses": 3},
-                {"name": "Add one (-2) card and two (+2) cards", "uses": 1},
-                {"name": "Add one (+1) IMMOBILIZE card", "uses": 2},
-                {"name": "Add one (+2) MUDDLE card", "uses": 2},
-                {"name": "Add two rolling PUSH 2 cards", "uses": 1},
-                {"name": "Add two rolling EARTH cards", "uses": 2},
-                {"name": "Add two rolling WIND cards", "uses": 1},
-                {"name": "Ignore negative item effects", "uses": 1},
-                {"name": "Ignore negative scenario effects", "uses": 1}
-            ]
+          "name": "Remove four (+0) cards",
+          "uses": 1
         },
         {
-            "name": "Scoundrel",
-            "hidden_name": "Scoundrel",
-            "icon": "scoundrel.svg",
-            "from_game": "Gloomhaven Base",
-            "perks": [
-                {"name": "Remove two (-1) cards", "uses": 2},
-                {"name": "Remove four (+0) cards", "uses": 1},
-                {"name": "Replace one (-2) card with one (+0) card", "uses": 1},
-                {"name": "Replace one (-1) card with one (+1) card", "uses": 1},
-                {"name": "Replace one (+0) card with one (+2) card", "uses": 2},
-                {"name": "Add two rolling (+1) cards", "uses": 2},
-                {"name": "Add two rolling PIERCE 3 cards", "uses": 1},
-                {"name": "Add two rolling POISON cards", "uses": 2},
-                {"name": "Add two rolling MUDDLE cards", "uses": 1},
-                {"name": "Add one rolling INVISIBLE card", "uses": 1},
-                {"name": "Ignore negative scenario effects", "uses": 1}
-            ]
+          "name": "Replace one (-1) card with one (+1) card",
+          "uses": 3
         },
         {
-            "name": "Brute",
-            "hidden_name": "Brute",
-            "icon": "brute.svg",
-            "from_game": "Gloomhaven Base",
-            "perks": [
-                {"name": "Remove two (-1) cards", "uses": 1},
-                {"name": "Replace one (-1) card with one (+1) card", "uses": 1},
-                {"name": "Add two (+1) cards", "uses": 2},
-                {"name": "Add one (+3) card", "uses": 1},
-                {"name": "Add three rolling PUSH 1 cards", "uses": 2},
-                {"name": "Add two rolling PIERCE 3 cards", "uses": 1},
-                {"name": "Add one rolling STUN card", "uses": 2},
-                {"name": "Add one rolling DISARM and one rolling MUDDLE card", "uses": 1},
-                {"name": "Add one rolling ADD TARGET card", "uses": 2},
-                {"name": "Add one (+1) Shield 1, Self card", "uses": 1},
-                {"name": "Ignore negative item effects and add one (+1) card", "uses": 1}
-            ]
+          "name": "Add one (-2) card and two (+2) cards",
+          "uses": 1
         },
         {
-            "name": "Spellweaver",
-            "hidden_name": "Spellweaver",
-            "icon": "spellweaver.svg",
-            "from_game": "Gloomhaven Base",
-            "perks": [
-                {"name": "Remove four (+0) cards", "uses": 1},
-                {"name": "Replace one (-1) card with one (+1) card", "uses": 2},
-                {"name": "Add two (+1) cards", "uses": 2},
-                {"name": "Add one (+0) STUN card", "uses": 1},
-                {"name": "Add one (+1) WOUND card", "uses": 1},
-                {"name": "Add one (+1) IMMOBILIZE card", "uses": 1},
-                {"name": "Add one (+1) CURSE card", "uses": 1},
-                {"name": "Add one (+2) FIRE card", "uses": 2},
-                {"name": "Add one (+2) FROST card", "uses": 2},
-                {"name": "Add one rolling EARTH and one rolling WIND card", "uses": 1},
-                {"name": "Add one rolling SUN and one rolling DARK card", "uses": 1}
-            ]
+          "name": "Add one (+1) IMMOBILIZE card",
+          "uses": 2
         },
         {
-            "name": "Tinkerer",
-            "hidden_name": "Tinkerer",
-            "icon": "tinkerer.svg",
-            "from_game": "Gloomhaven Base",
-            "perks": [
-                {"name": "Remove two (-1) cards", "uses": 2},
-                {"name": "Replace one (-2) card with one (+0) card", "uses": 1},
-                {"name": "Add two (+1) cards", "uses": 1},
-                {"name": "Add one (+3) card", "uses": 1},
-                {"name": "Add two rolling FIRE cards", "uses": 1},
-                {"name": "Add three rolling MUDDLE cards", "uses": 1},
-                {"name": "Add one (+1) WOUND card", "uses": 2},
-                {"name": "Add one (+1) IMMOBILIZE card", "uses": 2},
-                {"name": "Add one (+1) HEAL 2 card", "uses": 2},
-                {"name": "Add one (+0) ADD TARGET card", "uses": 1},
-                {"name": "Ignore negative scenario effects", "uses": 1}
-            ]
+          "name": "Add one (+2) MUDDLE card",
+          "uses": 2
         },
         {
-            "name": "Mindthief",
-            "hidden_name": "Mindthief",
-            "icon": "mindthief.svg",
-            "from_game": "Gloomhaven Base",
-            "perks": [
-                {"name": "Remove two (-1) cards", "uses": 2},
-                {"name": "Remove four (+0) cards", "uses": 1},
-                {"name": "Replace two (+1) cards with two (+2) cards", "uses": 1},
-                {"name": "Replace one (-2) card with one (+0) card", "uses": 1},
-                {"name": "Add one (+2) FROST card", "uses": 2},
-                {"name": "Add two rolling (+1) cards", "uses": 2},
-                {"name": "Add three rolling PULL 1 cards", "uses": 1},
-                {"name": "Add three rolling MUDDLE cards", "uses": 1},
-                {"name": "Add two rolling IMMOBILIZE cards", "uses": 1},
-                {"name": "Add one rolling STUN card", "uses": 1},
-                {"name": "Add one rolling DISARM and one rolling MUDDLE card", "uses": 1},
-                {"name": "Ignore negative scenario effects", "uses": 1}
-            ]
+          "name": "Add two rolling PUSH 2 cards",
+          "uses": 1
         },
         {
-            "name": "Diviner",
-            "hidden_name": "Diviner",
-            "icon": "aesther-diviner.svg",
-            "from_game": "Forgotten Circles",
-            "perks": [
-                {"name": "Remove two (-1) cards", "uses": 2},
-                {"name": "Remove one (-2) card", "uses": 1},
-                {"name": "Replace two (+1) cards with one (+3) Shield 1, Self card", "uses": 2},
-                {"name": "Replace one (+0) card with one (+1) Shield 1, Affect any ally card", "uses": 1},
-                {"name": "Replace one (+0) card with one (+2) DARK card", "uses": 1},
-                {"name": "Replace one (+0) card with one (+2) SUN card", "uses": 1},
-                {"name": "Replace one (+0) card with one (+3) MUDDLE card", "uses": 1},
-                {"name": "Replace one (+0) card with one (+2) CURSE card", "uses": 1},
-                {"name": "Replace one (+0) card with one (+2) REGENERATE , Self card", "uses": 1},
-                {"name": "Replace one (-1) card with one (+1) HEAL 2, Affect any ally card", "uses": 1},
-                {"name": "Add two rolling HEAL 1, Self cards", "uses": 1},
-                {"name": "Add two rolling CURSE cards", "uses": 1},
-                {"name": "Ignore negative scenario effects and add two (+1) cards", "uses": 1}
-            ]
+          "name": "Add two rolling EARTH cards",
+          "uses": 2
         },
         {
-            "name": "Sunkeeper",
-            "hidden_name": "Sun",
-            "icon": "sun.svg",
-            "from_game": "Gloomhaven Base",
-            "perks": [
-                {"name": "Remove two (-1) cards", "uses": 2},
-                {"name": "Remove four (+0) cards", "uses": 1},
-                {"name": "Replace one (-2) card with one (+0) card", "uses": 1},
-                {"name": "Replace one (+0) card with one (+2) card", "uses": 1},
-                {"name": "Add two rolling (+1) cards", "uses": 2},
-                {"name": "Add two rolling HEAL 1 cards", "uses": 2},
-                {"name": "Add one rolling STUN card", "uses": 1},
-                {"name": "Add two rolling SUN cards", "uses": 2},
-                {"name": "Add two rolling Shield 1, Self cards", "uses": 1},
-                {"name": "Ignore negative item effects and add two (+1) cards", "uses": 1},
-                {"name": "Ignore negative scenario effects", "uses": 1}
-            ]
+          "name": "Add two rolling WIND cards",
+          "uses": 1
         },
         {
-            "name": "Quartermaster",
-            "hidden_name": "Three Spears",
-            "icon": "three-spears.svg",
-            "from_game": "Gloomhaven Base",
-            "perks": [
-                {"name": "Remove two (-1) cards", "uses": 2},
-                {"name": "Remove four (+0) cards", "uses": 1},
-                {"name": "Replace one (+0) card with one (+2) card", "uses": 2},
-                {"name": "Add two rolling (+1) cards", "uses": 2},
-                {"name": "Add three rolling MUDDLE cards", "uses": 1},
-                {"name": "Add two rolling PIERCE 3 cards", "uses": 1},
-                {"name": "Add one rolling STUN card", "uses": 1},
-                {"name": "Add one rolling ADD TARGET card", "uses": 1},
-                {"name": "Add one (+0) Refresh and item card", "uses": 3},
-                {"name": "Ignore negative item effects and add two (+1) cards", "uses": 1}
-            ]
+          "name": "Ignore negative item effects",
+          "uses": 1
         },
         {
-            "name": "Summoner",
-            "hidden_name": "Circles",
-            "icon": "circles.svg",
-            "from_game": "Gloomhaven Base",
-            "perks": [
-                {"name": "Remove two (-1) cards", "uses": 1},
-                {"name": "Replace one (-2) card with one (+0) card", "uses": 1},
-                {"name": "Replace one (-1) card with one (+1) card", "uses": 3},
-                {"name": "Add one (+2) card", "uses": 2},
-                {"name": "Add two rolling WOUND cards", "uses": 1},
-                {"name": "Add two rolling POISON cards", "uses": 1},
-                {"name": "Add two rolling HEAL 1 cards", "uses": 3},
-                {"name": "Add one rolling FIRE and one rolling WIND card", "uses": 1},
-                {"name": "Add one rolling DARK and one rolling EARTH card", "uses": 1},
-                {"name": "Ignore negative scenario effects and add two (+1) cards", "uses": 1}
-            ]
-        },
-        {
-            "name": "Nightshroud",
-            "hidden_name": "Eclipse",
-            "icon": "eclipse.svg",
-            "from_game": "Gloomhaven Base",
-            "perks": [
-                {"name": "Remove two (-1) cards", "uses": 2},
-                {"name": "Remove four (+0) cards", "uses": 1},
-                {"name": "Add one (-1) DARK card", "uses": 2},
-                {"name": "Replace one (-1) DARK card with one (+1) DARK card", "uses": 2},
-                {"name": "Add one (+1) INVISIBLE card", "uses": 2},
-                {"name": "Add three rolling MUDDLE cards", "uses": 2},
-                {"name": "Add two rolling HEAL 1 cards", "uses": 1},
-                {"name": "Add two rolling CURSE cards", "uses": 1},
-                {"name": "Add one rolling ADD TARGET card", "uses": 1},
-                {"name": "Ignore negative scenario effects and add two (+1) cards", "uses": 1}
-            ]
-        },
-        {
-            "name": "Plagueherald",
-            "hidden_name": "Cthulhu",
-            "icon": "cthulhu.svg",
-            "from_game": "Gloomhaven Base",
-            "perks": [
-                {"name": "Replace one (-2) card with one (+0) card", "uses": 1},
-                {"name": "Replace one (-1) card with one (+1) card", "uses": 2},
-                {"name": "Replace one (+0) card with one (+2) card", "uses": 2},
-                {"name": "Add two (+1) cards", "uses": 1},
-                {"name": "Add one (+1) WIND card", "uses": 3},
-                {"name": "Add three rolling POISON cards", "uses": 1},
-                {"name": "Add two rolling CURSE cards", "uses": 1},
-                {"name": "Add two rolling IMMOBILIZE cards", "uses": 1},
-                {"name": "Add one rolling STUN card", "uses": 2},
-                {"name": "Ignore negative scenario effects and add one (+1) card", "uses": 1}
-            ]
-        },
-        {
-            "name": "Berserker",
-            "hidden_name": "Lightning Bolt",
-            "icon": "lightning-bolt.svg",
-            "from_game": "Gloomhaven Base",
-            "perks": [
-                {"name": "Remove two (-1) cards", "uses": 1},
-                {"name": "Remove four (+0) cards", "uses": 1},
-                {"name": "Replace one (-1) card with one (+1) card", "uses": 2},
-                {"name": "Replace one (+0) card with one rolling (+2) card", "uses": 2},
-                {"name": "Add two rolling WOUND cards", "uses": 2},
-                {"name": "Add one rolling STUN card", "uses": 2},
-                {"name": "Add one rolling (+1) DISARM card", "uses": 1},
-                {"name": "Add two rolling HEAL 1 cards", "uses": 1},
-                {"name": "Add one (+2) FIRE card", "uses": 2},
-                {"name": "Ignore negative item effects", "uses": 1}
-            ]
-        },
-        {
-            "name": "Soothsinger",
-            "hidden_name": "Music Note",
-            "icon": "music-note.svg",
-            "from_game": "Gloomhaven Base",
-            "perks": [
-                {"name": "Remove two (-1) cards", "uses": 2},
-                {"name": "Remove one (-2) card", "uses": 1},
-                {"name": "Replace two (+1) cards with one (+4) card", "uses": 2},
-                {"name": "Replace one (+0) card with one (+1) IMMOBILIZE card", "uses": 1},
-                {"name": "Replace one (+0) card with one (+1) DISARM card", "uses": 1},
-                {"name": "Replace one (+0) card with one (+2) WOUND card", "uses": 1},
-                {"name": "Replace one (+0) card with one (+2) POISON card", "uses": 1},
-                {"name": "Replace one (+0) card with one (+2) CURSE card", "uses": 1},
-                {"name": "Replace one (+0) card with one (+3) MUDDLE card", "uses": 1},
-                {"name": "Replace one (-1) card with one (+0) STUN card", "uses": 1},
-                {"name": "Add three rolling (+1) cards", "uses": 1},
-                {"name": "Add two rolling CURSE cards", "uses": 2}
-            ]
-        },
-        {
-            "name": "Doom Stalker",
-            "hidden_name": "Angry Face",
-            "icon": "angry-face.svg",
-            "from_game": "Gloomhaven Base",
-            "perks": [
-                {"name": "Remove two (-1) cards", "uses": 2},
-                {"name": "Replace two (+0) cards with two (+1) cards", "uses": 3},
-                {"name": "Add two rolling (+1) cards", "uses": 2},
-                {"name": "Add one (+2) MUDDLE card", "uses": 1},
-                {"name": "Add one (+1) POISON card", "uses": 1},
-                {"name": "Add one (+1) WOUND card", "uses": 1},
-                {"name": "Add one (+1) IMMOBILIZE card", "uses": 1},
-                {"name": "Add one (+0) STUN card", "uses": 1},
-                {"name": "Add one rolling ADD TARGET card", "uses": 2},
-                {"name": "Ignore negative scenario effects", "uses": 1}
-            ]
-        },
-        {
-            "name": "Sawbones",
-            "hidden_name": "Saw",
-            "icon": "saw.svg",
-            "from_game": "Gloomhaven Base",
-            "perks": [
-                {"name": "Remove two (-1) cards", "uses": 2},
-                {"name": "Remove four (+0) cards", "uses": 1},
-                {"name": "Replace one (+0) card with one (+2) card", "uses": 2},
-                {"name": "Add one rolling (+2) card", "uses": 2},
-                {"name": "Add one (+1) IMMOBILIZE card", "uses": 2},
-                {"name": "Add two rolling WOUND cards", "uses": 2},
-                {"name": "Add one rolling STUN card", "uses": 1},
-                {"name": "Add one rolling HEAL 3 card", "uses": 2},
-                {"name": "Add one (+0) Refresh and item card", "uses": 1}
-            ]
-        },
-        {
-            "name": "Elementalist",
-            "hidden_name": "Triforce",
-            "icon": "triforce.svg",
-            "from_game": "Gloomhaven Base",
-            "perks": [
-                {"name": "Remove two (-1) cards", "uses": 2},
-                {"name": "Replace one (-1) card with one (+1) card", "uses": 1},
-                {"name": "Replace one (+0) card with one (+2) card", "uses": 2},
-                {"name": "Add three (+0) FIRE cards", "uses": 1},
-                {"name": "Add three (+0) FROST cards", "uses": 1},
-                {"name": "Add three (+0) WIND cards", "uses": 1},
-                {"name": "Add three (+0) EARTH cards", "uses": 1},
-                {"name": "Replace two (+0) cards with one (+0) FIRE and one (+0) EARTH card", "uses": 1},
-                {"name": "Replace two (+0) cards with one (+0) FROST and one (+0) WIND card", "uses": 1},
-                {"name": "Add two (+1) PUSH 1 cards", "uses": 1},
-                {"name": "Add one (+1) WOUND card", "uses": 1},
-                {"name": "Add one (+0) STUN card", "uses": 1},
-                {"name": "Add one (+0) ADD TARGET card", "uses": 1}
-
-            ]
-        },
-        {
-            "name": "Beast Tyrant",
-            "hidden_name": "Two Minis",
-            "icon": "two-minis.svg",
-            "from_game": "Gloomhaven Base",
-            "perks": [
-                {"name": "Remove two (-1) cards", "uses": 1},
-                {"name": "Replace one (-1) card with one (+1) card", "uses": 3},
-                {"name": "Replace one (+0) card with one (+2) card", "uses": 2},
-                {"name": "Add one (+1) WOUND card", "uses": 2},
-                {"name": "Add one (+1) IMMOBILIZE card", "uses": 2},
-                {"name": "Add two rolling HEAL 1 cards", "uses": 3},
-                {"name": "Add two rolling EARTH cards", "uses": 1},
-                {"name": "Ignore negative scenario effects", "uses": 1}
-            ]
-        },
-        {
-            "name": "Demolitionist",
-            "hidden_name": "Demolitionist",
-            "icon": "quatryl-demolitionist.svg",
-            "from_game": "Jaws of the Lion",
-            "perks": [
-                {"name": "Remove four (+0) cards", "uses": 1},
-                {"name": "Remove two (-1) cards", "uses": 2},
-                {"name": "Remove one (-2) card and one (+1) card", "uses": 1},
-                {"name": "Replace one (+0) card with one (+2) MUDDLE card", "uses": 2},
-                {"name": "Replace one (-1) card with one (+0) POISON card", "uses": 1},
-                {"name": "Add one (+2) card", "uses": 2},
-                {"name": "Replace one (+1) card with one (+2) EARTH card", "uses": 2},
-                {"name": "Replace one (+1) card with one (+2) FIRE card", "uses": 2},
-                {"name": "Add one (+0) All adjacent enemies suffer 1 damage card", "uses": 2}
-            ]
-        },
-        {
-            "name": "Hatchet",
-            "hidden_name": "Hatchet",
-            "icon": "inox-hatchet.svg",
-            "from_game": "Jaws of the Lion",
-            "perks": [
-                {"name": "Remove two (-1) cards", "uses": 2},
-                {"name": "Replace one (+0) card with one (+2) MUDDLE card", "uses": 1},
-                {"name": "Replace one (+0) card with one (+1) POISON card", "uses": 1},
-                {"name": "Replace one (+0) card with one (+1) WOUND card", "uses": 1},
-                {"name": "Replace one (+0) card with one (+1) IMMOBILIZE card", "uses": 1},
-                {"name": "Replace one (+0) card with one (+1) PUSH card", "uses": 1},
-                {"name": "Replace one (+0) card with one (+0) STUN card", "uses": 1},
-                {"name": "Replace one (+1) card with one (+1) STUN card", "uses": 1},
-                {"name": "Add one (+2) WIND card", "uses": 3},
-                {"name": "Replace one (+1) card with one (+3) card", "uses": 3}
-            ]
-        },
-        {
-            "name": "Voidwarden",
-            "hidden_name": "Voidwarden",
-            "icon": "human-voidwarden.svg",
-            "from_game": "Jaws of the Lion",
-            "perks": [
-                {"name": "Remove two (-1) cards", "uses": 1},
-                {"name": "Remove one (-2) card", "uses": 1},
-                {"name": "Replace one (+0) card with one (+1) DARK card", "uses": 2},
-                {"name": "Replace one (+0) card with one (+1) FROST card", "uses": 2},
-                {"name": "Replace one (-1) card with one (+0) HEAL 1 (Ally) card", "uses": 2},
-                {"name": "Add one (+1) HEAL 1 (Ally) card", "uses": 3},
-                {"name": "Add one (+1) POISON card", "uses": 1},
-                {"name": "Add one (+3) card", "uses": 1},
-                {"name": "Add one (+1) CURSE card", "uses": 2}
-            ]
-        },
-        {
-            "name": "Red Guard",
-            "hidden_name": "Red Guard",
-            "icon": "valrath-red-guard.svg",
-            "from_game": "Jaws of the Lion",
-            "perks": [
-                {"name": "Remove four (+0) cards", "uses": 1},
-                {"name": "Remove two (-1) cards", "uses": 1},
-                {"name": "Remove one (-2) card and one (+1) card", "uses": 1},
-                {"name": "Replace one (-1) card with one (+1) card", "uses": 2},
-                {"name": "Replace one (+1) card with one (+2) FIRE card", "uses": 2},
-                {"name": "Replace one (+1) card with one (+2) SUN card", "uses": 2},
-                {"name": "Add one (+1) FIRESUN card", "uses": 2},
-                {"name": "Add one (+1) Shield 1 card", "uses": 2},
-                {"name": "Replace one (+0) card with one (+1) IMMOBILIZE card", "uses": 1},
-                {"name": "Replace one (+0) card with one (+1) WOUND card", "uses": 1}
-            ]
-        },
-        {
-            "name": "Banner Spear",
-            "hidden_name": "Banner Spear",
-            "icon": "human-banner-spear.svg",
-            "from_game": "Frosthaven (beta)",
-            "perks": [
-                {"name": "Remove four (+0) cards", "uses": 1},
-                {"name": "Remove two (-1) cards", "uses": 1},
-                {"name": "Replace one (-1) card with one (+1) card", "uses": 1},
-                {"name": "Replace one (-2) card with one (+0) card", "uses": 1},
-                {"name": "Add two rolling PIERCE 3 cards", "uses": 2},
-                {"name": "Add two rolling (+1) cards", "uses": 2},
-                {"name": "Add two rolling HEAL 1, Self cards", "uses": 2},
-                {"name": "Add one (+1) Shield 1, Self card", "uses": 2},
-                {"name": "Add one (+1) WOUND card", "uses": 2},
-                {"name": "Ignore negative item effects and add one (-1) card", "uses": 1}
-            ]
-        },
-        {
-            "name": "Blink Blade",
-            "hidden_name": "Blink Blade",
-            "icon": "quatryl-blinkblade.svg",
-            "from_game": "Frosthaven (beta)",
-            "perks":[
-                {"name": "Remove four (+0) cards", "uses": 1},
-                {"name": "Remove two (-1) cards", "uses": 2},
-                {"name": "Replace one (+0) card with one (+2) card", "uses": 1},
-                {"name": "Replace one (-1) card with one (+1) card", "uses": 1},
-                {"name": "Replace one (-2) card with one (+0) card", "uses": 1},
-                {"name": "Add one (-1) 'Add one Counter' card", "uses": 2},
-                {"name": "Add one (+1) REGENERATE, Self card", "uses": 2},
-                {"name": "Add three rolling MUDDLE cards", "uses": 2},
-                {"name": "Add one (+1) IMMOBILIZE card", "uses": 2},
-                {"name": "Ignore negative scenario effects and remove two (+0) cards", "uses": 1}
-            ]
-        },
-        {
-            "name": "Deathwalker",
-            "hidden_name": "Deathwalker",
-            "icon": "valrath-deathwalker.svg",
-            "from_game": "Frosthaven (beta)",
-            "perks": [
-                {"name": "Remove two (-1) cards", "uses": 1},
-                {"name": "Replace one (-1) card with one (+1) card", "uses": 3},
-                {"name": "Replace one (-2) card with one (-1) card and one (+1) card", "uses": 1},
-                {"name": "Add two (+1) cards", "uses": 2},
-                {"name": "Add three rolling PUSH 1 cards", "uses": 1},
-                {"name": "Add two rolling WOUND cards", "uses": 2},
-                {"name": "Add one rolling HEAL 2, Ally card", "uses": 2},
-                {"name": "Add one (+2) DARK card", "uses": 2},
-                {"name": "Ignore negative scenario effects and remove one (-1) card", "uses": 1}
-            ]
-        },
-        {
-            "name": "Drifter",
-            "hidden_name": "Drifter",
-            "icon": "inox-drifter.svg",
-            "from_game": "Frosthaven (beta)",
-            "perks": [
-                {"name": "Remove four (+0) cards", "uses": 1},
-                {"name": "Remove two (-1) cards", "uses": 2},
-                {"name": "Remove one (-2) card", "uses": 1},
-                {"name": "Add two (+1) cards", "uses": 1},
-                {"name": "Add two rolling PIERCE 3 cards", "uses": 2},
-                {"name": "Add three rolling PUSH 1 cards", "uses": 2},
-                {"name": "Add three rolling MUDDLE cards", "uses": 2},
-                {"name": "Add one rolling 'Move back one character token' card", "uses": 2},
-                {"name": "Ignore negative scenario effects and add one (+1) card", "uses": 1},
-                {"name": "Ignore negative item effects and add one (+1) card", "uses": 1}
-            ]
+          "name": "Ignore negative scenario effects",
+          "uses": 1
         }
-    ]
+      ]
+    },
+    {
+      "name": "Scoundrel",
+      "hidden_name": "Scoundrel",
+      "icon": "scoundrel.svg",
+      "from_game": "Gloomhaven Base",
+      "perks": [
+        {
+          "name": "Remove two (-1) cards",
+          "uses": 2
+        },
+        {
+          "name": "Remove four (+0) cards",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (-2) card with one (+0) card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (-1) card with one (+1) card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+2) card",
+          "uses": 2
+        },
+        {
+          "name": "Add two rolling (+1) cards",
+          "uses": 2
+        },
+        {
+          "name": "Add two rolling PIERCE 3 cards",
+          "uses": 1
+        },
+        {
+          "name": "Add two rolling POISON cards",
+          "uses": 2
+        },
+        {
+          "name": "Add two rolling MUDDLE cards",
+          "uses": 1
+        },
+        {
+          "name": "Add one rolling INVISIBLE card",
+          "uses": 1
+        },
+        {
+          "name": "Ignore negative scenario effects",
+          "uses": 1
+        }
+      ]
+    },
+    {
+      "name": "Brute",
+      "hidden_name": "Brute",
+      "icon": "brute.svg",
+      "from_game": "Gloomhaven Base",
+      "perks": [
+        {
+          "name": "Remove two (-1) cards",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (-1) card with one (+1) card",
+          "uses": 1
+        },
+        {
+          "name": "Add two (+1) cards",
+          "uses": 2
+        },
+        {
+          "name": "Add one (+3) card",
+          "uses": 1
+        },
+        {
+          "name": "Add three rolling PUSH 1 cards",
+          "uses": 2
+        },
+        {
+          "name": "Add two rolling PIERCE 3 cards",
+          "uses": 1
+        },
+        {
+          "name": "Add one rolling STUN card",
+          "uses": 2
+        },
+        {
+          "name": "Add one rolling DISARM and one rolling MUDDLE card",
+          "uses": 1
+        },
+        {
+          "name": "Add one rolling ADD TARGET card",
+          "uses": 2
+        },
+        {
+          "name": "Add one (+1) Shield 1, Self card",
+          "uses": 1
+        },
+        {
+          "name": "Ignore negative item effects and add one (+1) card",
+          "uses": 1
+        }
+      ]
+    },
+    {
+      "name": "Spellweaver",
+      "hidden_name": "Spellweaver",
+      "icon": "spellweaver.svg",
+      "from_game": "Gloomhaven Base",
+      "perks": [
+        {
+          "name": "Remove four (+0) cards",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (-1) card with one (+1) card",
+          "uses": 2
+        },
+        {
+          "name": "Add two (+1) cards",
+          "uses": 2
+        },
+        {
+          "name": "Add one (+0) STUN card",
+          "uses": 1
+        },
+        {
+          "name": "Add one (+1) WOUND card",
+          "uses": 1
+        },
+        {
+          "name": "Add one (+1) IMMOBILIZE card",
+          "uses": 1
+        },
+        {
+          "name": "Add one (+1) CURSE card",
+          "uses": 1
+        },
+        {
+          "name": "Add one (+2) FIRE card",
+          "uses": 2
+        },
+        {
+          "name": "Add one (+2) FROST card",
+          "uses": 2
+        },
+        {
+          "name": "Add one rolling EARTH and one rolling WIND card",
+          "uses": 1
+        },
+        {
+          "name": "Add one rolling SUN and one rolling DARK card",
+          "uses": 1
+        }
+      ]
+    },
+    {
+      "name": "Tinkerer",
+      "hidden_name": "Tinkerer",
+      "icon": "tinkerer.svg",
+      "from_game": "Gloomhaven Base",
+      "perks": [
+        {
+          "name": "Remove two (-1) cards",
+          "uses": 2
+        },
+        {
+          "name": "Replace one (-2) card with one (+0) card",
+          "uses": 1
+        },
+        {
+          "name": "Add two (+1) cards",
+          "uses": 1
+        },
+        {
+          "name": "Add one (+3) card",
+          "uses": 1
+        },
+        {
+          "name": "Add two rolling FIRE cards",
+          "uses": 1
+        },
+        {
+          "name": "Add three rolling MUDDLE cards",
+          "uses": 1
+        },
+        {
+          "name": "Add one (+1) WOUND card",
+          "uses": 2
+        },
+        {
+          "name": "Add one (+1) IMMOBILIZE card",
+          "uses": 2
+        },
+        {
+          "name": "Add one (+1) HEAL 2 card",
+          "uses": 2
+        },
+        {
+          "name": "Add one (+0) ADD TARGET card",
+          "uses": 1
+        },
+        {
+          "name": "Ignore negative scenario effects",
+          "uses": 1
+        }
+      ]
+    },
+    {
+      "name": "Mindthief",
+      "hidden_name": "Mindthief",
+      "icon": "mindthief.svg",
+      "from_game": "Gloomhaven Base",
+      "perks": [
+        {
+          "name": "Remove two (-1) cards",
+          "uses": 2
+        },
+        {
+          "name": "Remove four (+0) cards",
+          "uses": 1
+        },
+        {
+          "name": "Replace two (+1) cards with two (+2) cards",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (-2) card with one (+0) card",
+          "uses": 1
+        },
+        {
+          "name": "Add one (+2) FROST card",
+          "uses": 2
+        },
+        {
+          "name": "Add two rolling (+1) cards",
+          "uses": 2
+        },
+        {
+          "name": "Add three rolling PULL 1 cards",
+          "uses": 1
+        },
+        {
+          "name": "Add three rolling MUDDLE cards",
+          "uses": 1
+        },
+        {
+          "name": "Add two rolling IMMOBILIZE cards",
+          "uses": 1
+        },
+        {
+          "name": "Add one rolling STUN card",
+          "uses": 1
+        },
+        {
+          "name": "Add one rolling DISARM and one rolling MUDDLE card",
+          "uses": 1
+        },
+        {
+          "name": "Ignore negative scenario effects",
+          "uses": 1
+        }
+      ]
+    },
+    {
+      "name": "Diviner",
+      "hidden_name": "Diviner",
+      "icon": "aesther-diviner.svg",
+      "from_game": "Forgotten Circles",
+      "perks": [
+        {
+          "name": "Remove two (-1) cards",
+          "uses": 2
+        },
+        {
+          "name": "Remove one (-2) card",
+          "uses": 1
+        },
+        {
+          "name": "Replace two (+1) cards with one (+3) Shield 1, Self card",
+          "uses": 2
+        },
+        {
+          "name": "Replace one (+0) card with one (+1) Shield 1, Affect any ally card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+2) DARK card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+2) SUN card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+3) MUDDLE card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+2) CURSE card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+2) REGENERATE , Self card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (-1) card with one (+1) HEAL 2, Affect any ally card",
+          "uses": 1
+        },
+        {
+          "name": "Add two rolling HEAL 1, Self cards",
+          "uses": 1
+        },
+        {
+          "name": "Add two rolling CURSE cards",
+          "uses": 1
+        },
+        {
+          "name": "Ignore negative scenario effects and add two (+1) cards",
+          "uses": 1
+        }
+      ]
+    },
+    {
+      "name": "Sunkeeper",
+      "hidden_name": "Sun",
+      "icon": "sun.svg",
+      "from_game": "Gloomhaven Base",
+      "perks": [
+        {
+          "name": "Remove two (-1) cards",
+          "uses": 2
+        },
+        {
+          "name": "Remove four (+0) cards",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (-2) card with one (+0) card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+2) card",
+          "uses": 1
+        },
+        {
+          "name": "Add two rolling (+1) cards",
+          "uses": 2
+        },
+        {
+          "name": "Add two rolling HEAL 1 cards",
+          "uses": 2
+        },
+        {
+          "name": "Add one rolling STUN card",
+          "uses": 1
+        },
+        {
+          "name": "Add two rolling SUN cards",
+          "uses": 2
+        },
+        {
+          "name": "Add two rolling Shield 1, Self cards",
+          "uses": 1
+        },
+        {
+          "name": "Ignore negative item effects and add two (+1) cards",
+          "uses": 1
+        },
+        {
+          "name": "Ignore negative scenario effects",
+          "uses": 1
+        }
+      ]
+    },
+    {
+      "name": "Quartermaster",
+      "hidden_name": "Three Spears",
+      "icon": "three-spears.svg",
+      "from_game": "Gloomhaven Base",
+      "perks": [
+        {
+          "name": "Remove two (-1) cards",
+          "uses": 2
+        },
+        {
+          "name": "Remove four (+0) cards",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+2) card",
+          "uses": 2
+        },
+        {
+          "name": "Add two rolling (+1) cards",
+          "uses": 2
+        },
+        {
+          "name": "Add three rolling MUDDLE cards",
+          "uses": 1
+        },
+        {
+          "name": "Add two rolling PIERCE 3 cards",
+          "uses": 1
+        },
+        {
+          "name": "Add one rolling STUN card",
+          "uses": 1
+        },
+        {
+          "name": "Add one rolling ADD TARGET card",
+          "uses": 1
+        },
+        {
+          "name": "Add one (+0) Refresh and item card",
+          "uses": 3
+        },
+        {
+          "name": "Ignore negative item effects and add two (+1) cards",
+          "uses": 1
+        }
+      ]
+    },
+    {
+      "name": "Summoner",
+      "hidden_name": "Circles",
+      "icon": "circles.svg",
+      "from_game": "Gloomhaven Base",
+      "perks": [
+        {
+          "name": "Remove two (-1) cards",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (-2) card with one (+0) card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (-1) card with one (+1) card",
+          "uses": 3
+        },
+        {
+          "name": "Add one (+2) card",
+          "uses": 2
+        },
+        {
+          "name": "Add two rolling WOUND cards",
+          "uses": 1
+        },
+        {
+          "name": "Add two rolling POISON cards",
+          "uses": 1
+        },
+        {
+          "name": "Add two rolling HEAL 1 cards",
+          "uses": 3
+        },
+        {
+          "name": "Add one rolling FIRE and one rolling WIND card",
+          "uses": 1
+        },
+        {
+          "name": "Add one rolling DARK and one rolling EARTH card",
+          "uses": 1
+        },
+        {
+          "name": "Ignore negative scenario effects and add two (+1) cards",
+          "uses": 1
+        }
+      ]
+    },
+    {
+      "name": "Nightshroud",
+      "hidden_name": "Eclipse",
+      "icon": "eclipse.svg",
+      "from_game": "Gloomhaven Base",
+      "perks": [
+        {
+          "name": "Remove two (-1) cards",
+          "uses": 2
+        },
+        {
+          "name": "Remove four (+0) cards",
+          "uses": 1
+        },
+        {
+          "name": "Add one (-1) DARK card",
+          "uses": 2
+        },
+        {
+          "name": "Replace one (-1) DARK card with one (+1) DARK card",
+          "uses": 2
+        },
+        {
+          "name": "Add one (+1) INVISIBLE card",
+          "uses": 2
+        },
+        {
+          "name": "Add three rolling MUDDLE cards",
+          "uses": 2
+        },
+        {
+          "name": "Add two rolling HEAL 1 cards",
+          "uses": 1
+        },
+        {
+          "name": "Add two rolling CURSE cards",
+          "uses": 1
+        },
+        {
+          "name": "Add one rolling ADD TARGET card",
+          "uses": 1
+        },
+        {
+          "name": "Ignore negative scenario effects and add two (+1) cards",
+          "uses": 1
+        }
+      ]
+    },
+    {
+      "name": "Plagueherald",
+      "hidden_name": "Cthulhu",
+      "icon": "cthulhu.svg",
+      "from_game": "Gloomhaven Base",
+      "perks": [
+        {
+          "name": "Replace one (-2) card with one (+0) card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (-1) card with one (+1) card",
+          "uses": 2
+        },
+        {
+          "name": "Replace one (+0) card with one (+2) card",
+          "uses": 2
+        },
+        {
+          "name": "Add two (+1) cards",
+          "uses": 1
+        },
+        {
+          "name": "Add one (+1) WIND card",
+          "uses": 3
+        },
+        {
+          "name": "Add three rolling POISON cards",
+          "uses": 1
+        },
+        {
+          "name": "Add two rolling CURSE cards",
+          "uses": 1
+        },
+        {
+          "name": "Add two rolling IMMOBILIZE cards",
+          "uses": 1
+        },
+        {
+          "name": "Add one rolling STUN card",
+          "uses": 2
+        },
+        {
+          "name": "Ignore negative scenario effects and add one (+1) card",
+          "uses": 1
+        }
+      ]
+    },
+    {
+      "name": "Berserker",
+      "hidden_name": "Lightning Bolt",
+      "icon": "lightning-bolt.svg",
+      "from_game": "Gloomhaven Base",
+      "perks": [
+        {
+          "name": "Remove two (-1) cards",
+          "uses": 1
+        },
+        {
+          "name": "Remove four (+0) cards",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (-1) card with one (+1) card",
+          "uses": 2
+        },
+        {
+          "name": "Replace one (+0) card with one rolling (+2) card",
+          "uses": 2
+        },
+        {
+          "name": "Add two rolling WOUND cards",
+          "uses": 2
+        },
+        {
+          "name": "Add one rolling STUN card",
+          "uses": 2
+        },
+        {
+          "name": "Add one rolling (+1) DISARM card",
+          "uses": 1
+        },
+        {
+          "name": "Add two rolling HEAL 1 cards",
+          "uses": 1
+        },
+        {
+          "name": "Add one (+2) FIRE card",
+          "uses": 2
+        },
+        {
+          "name": "Ignore negative item effects",
+          "uses": 1
+        }
+      ]
+    },
+    {
+      "name": "Soothsinger",
+      "hidden_name": "Music Note",
+      "icon": "music-note.svg",
+      "from_game": "Gloomhaven Base",
+      "perks": [
+        {
+          "name": "Remove two (-1) cards",
+          "uses": 2
+        },
+        {
+          "name": "Remove one (-2) card",
+          "uses": 1
+        },
+        {
+          "name": "Replace two (+1) cards with one (+4) card",
+          "uses": 2
+        },
+        {
+          "name": "Replace one (+0) card with one (+1) IMMOBILIZE card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+1) DISARM card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+2) WOUND card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+2) POISON card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+2) CURSE card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+3) MUDDLE card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (-1) card with one (+0) STUN card",
+          "uses": 1
+        },
+        {
+          "name": "Add three rolling (+1) cards",
+          "uses": 1
+        },
+        {
+          "name": "Add two rolling CURSE cards",
+          "uses": 2
+        }
+      ]
+    },
+    {
+      "name": "Doom Stalker",
+      "hidden_name": "Angry Face",
+      "icon": "angry-face.svg",
+      "from_game": "Gloomhaven Base",
+      "perks": [
+        {
+          "name": "Remove two (-1) cards",
+          "uses": 2
+        },
+        {
+          "name": "Replace two (+0) cards with two (+1) cards",
+          "uses": 3
+        },
+        {
+          "name": "Add two rolling (+1) cards",
+          "uses": 2
+        },
+        {
+          "name": "Add one (+2) MUDDLE card",
+          "uses": 1
+        },
+        {
+          "name": "Add one (+1) POISON card",
+          "uses": 1
+        },
+        {
+          "name": "Add one (+1) WOUND card",
+          "uses": 1
+        },
+        {
+          "name": "Add one (+1) IMMOBILIZE card",
+          "uses": 1
+        },
+        {
+          "name": "Add one (+0) STUN card",
+          "uses": 1
+        },
+        {
+          "name": "Add one rolling ADD TARGET card",
+          "uses": 2
+        },
+        {
+          "name": "Ignore negative scenario effects",
+          "uses": 1
+        }
+      ]
+    },
+    {
+      "name": "Sawbones",
+      "hidden_name": "Saw",
+      "icon": "saw.svg",
+      "from_game": "Gloomhaven Base",
+      "perks": [
+        {
+          "name": "Remove two (-1) cards",
+          "uses": 2
+        },
+        {
+          "name": "Remove four (+0) cards",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+2) card",
+          "uses": 2
+        },
+        {
+          "name": "Add one rolling (+2) card",
+          "uses": 2
+        },
+        {
+          "name": "Add one (+1) IMMOBILIZE card",
+          "uses": 2
+        },
+        {
+          "name": "Add two rolling WOUND cards",
+          "uses": 2
+        },
+        {
+          "name": "Add one rolling STUN card",
+          "uses": 1
+        },
+        {
+          "name": "Add one rolling HEAL 3 card",
+          "uses": 2
+        },
+        {
+          "name": "Add one (+0) Refresh and item card",
+          "uses": 1
+        }
+      ]
+    },
+    {
+      "name": "Elementalist",
+      "hidden_name": "Triforce",
+      "icon": "triforce.svg",
+      "from_game": "Gloomhaven Base",
+      "perks": [
+        {
+          "name": "Remove two (-1) cards",
+          "uses": 2
+        },
+        {
+          "name": "Replace one (-1) card with one (+1) card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+2) card",
+          "uses": 2
+        },
+        {
+          "name": "Add three (+0) FIRE cards",
+          "uses": 1
+        },
+        {
+          "name": "Add three (+0) FROST cards",
+          "uses": 1
+        },
+        {
+          "name": "Add three (+0) WIND cards",
+          "uses": 1
+        },
+        {
+          "name": "Add three (+0) EARTH cards",
+          "uses": 1
+        },
+        {
+          "name": "Replace two (+0) cards with one (+0) FIRE and one (+0) EARTH card",
+          "uses": 1
+        },
+        {
+          "name": "Replace two (+0) cards with one (+0) FROST and one (+0) WIND card",
+          "uses": 1
+        },
+        {
+          "name": "Add two (+1) PUSH 1 cards",
+          "uses": 1
+        },
+        {
+          "name": "Add one (+1) WOUND card",
+          "uses": 1
+        },
+        {
+          "name": "Add one (+0) STUN card",
+          "uses": 1
+        },
+        {
+          "name": "Add one (+0) ADD TARGET card",
+          "uses": 1
+        }
+      ]
+    },
+    {
+      "name": "Beast Tyrant",
+      "hidden_name": "Two Minis",
+      "icon": "two-minis.svg",
+      "from_game": "Gloomhaven Base",
+      "perks": [
+        {
+          "name": "Remove two (-1) cards",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (-1) card with one (+1) card",
+          "uses": 3
+        },
+        {
+          "name": "Replace one (+0) card with one (+2) card",
+          "uses": 2
+        },
+        {
+          "name": "Add one (+1) WOUND card",
+          "uses": 2
+        },
+        {
+          "name": "Add one (+1) IMMOBILIZE card",
+          "uses": 2
+        },
+        {
+          "name": "Add two rolling HEAL 1 cards",
+          "uses": 3
+        },
+        {
+          "name": "Add two rolling EARTH cards",
+          "uses": 1
+        },
+        {
+          "name": "Ignore negative scenario effects",
+          "uses": 1
+        }
+      ]
+    },
+    {
+      "name": "Demolitionist",
+      "hidden_name": "Demolitionist",
+      "icon": "quatryl-demolitionist.svg",
+      "from_game": "Jaws of the Lion",
+      "perks": [
+        {
+          "name": "Remove four (+0) cards",
+          "uses": 1
+        },
+        {
+          "name": "Remove two (-1) cards",
+          "uses": 2
+        },
+        {
+          "name": "Remove one (-2) card and one (+1) card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+2) MUDDLE card",
+          "uses": 2
+        },
+        {
+          "name": "Replace one (-1) card with one (+0) POISON card",
+          "uses": 1
+        },
+        {
+          "name": "Add one (+2) card",
+          "uses": 2
+        },
+        {
+          "name": "Replace one (+1) card with one (+2) EARTH card",
+          "uses": 2
+        },
+        {
+          "name": "Replace one (+1) card with one (+2) FIRE card",
+          "uses": 2
+        },
+        {
+          "name": "Add one (+0) All adjacent enemies suffer 1 damage card",
+          "uses": 2
+        }
+      ]
+    },
+    {
+      "name": "Hatchet",
+      "hidden_name": "Hatchet",
+      "icon": "inox-hatchet.svg",
+      "from_game": "Jaws of the Lion",
+      "perks": [
+        {
+          "name": "Remove two (-1) cards",
+          "uses": 2
+        },
+        {
+          "name": "Replace one (+0) card with one (+2) MUDDLE card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+1) POISON card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+1) WOUND card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+1) IMMOBILIZE card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+1) PUSH card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+0) STUN card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+1) card with one (+1) STUN card",
+          "uses": 1
+        },
+        {
+          "name": "Add one (+2) WIND card",
+          "uses": 3
+        },
+        {
+          "name": "Replace one (+1) card with one (+3) card",
+          "uses": 3
+        }
+      ]
+    },
+    {
+      "name": "Voidwarden",
+      "hidden_name": "Voidwarden",
+      "icon": "human-voidwarden.svg",
+      "from_game": "Jaws of the Lion",
+      "perks": [
+        {
+          "name": "Remove two (-1) cards",
+          "uses": 1
+        },
+        {
+          "name": "Remove one (-2) card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+1) DARK card",
+          "uses": 2
+        },
+        {
+          "name": "Replace one (+0) card with one (+1) FROST card",
+          "uses": 2
+        },
+        {
+          "name": "Replace one (-1) card with one (+0) HEAL 1 (Ally) card",
+          "uses": 2
+        },
+        {
+          "name": "Add one (+1) HEAL 1 (Ally) card",
+          "uses": 3
+        },
+        {
+          "name": "Add one (+1) POISON card",
+          "uses": 1
+        },
+        {
+          "name": "Add one (+3) card",
+          "uses": 1
+        },
+        {
+          "name": "Add one (+1) CURSE card",
+          "uses": 2
+        }
+      ]
+    },
+    {
+      "name": "Red Guard",
+      "hidden_name": "Red Guard",
+      "icon": "valrath-red-guard.svg",
+      "from_game": "Jaws of the Lion",
+      "perks": [
+        {
+          "name": "Remove four (+0) cards",
+          "uses": 1
+        },
+        {
+          "name": "Remove two (-1) cards",
+          "uses": 1
+        },
+        {
+          "name": "Remove one (-2) card and one (+1) card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (-1) card with one (+1) card",
+          "uses": 2
+        },
+        {
+          "name": "Replace one (+1) card with one (+2) FIRE card",
+          "uses": 2
+        },
+        {
+          "name": "Replace one (+1) card with one (+2) SUN card",
+          "uses": 2
+        },
+        {
+          "name": "Add one (+1) FIRESUN card",
+          "uses": 2
+        },
+        {
+          "name": "Add one (+1) Shield 1 card",
+          "uses": 2
+        },
+        {
+          "name": "Replace one (+0) card with one (+1) IMMOBILIZE card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+1) WOUND card",
+          "uses": 1
+        }
+      ]
+    },
+    {
+      "name": "Banner Spear",
+      "hidden_name": "Banner Spear",
+      "icon": "human-banner-spear.svg",
+      "from_game": "Frosthaven",
+      "perks": [
+        {
+          "name": "Replace one (-1) card with one rolling Shield 1 card",
+          "uses": 3
+        },
+        {
+          "name": "Replace one (+0) card with one (+1) Add +1 ATTACK for each adjacent to the target card",
+          "uses": 2
+        },
+        {
+          "name": "Add one (+1) DISARM card",
+          "uses": 2
+        },
+        {
+          "name": "Add one (+2) PUSH 1 card",
+          "uses": 2
+        },
+        {
+          "name": "Add two rolling (+1) cards",
+          "uses": 2
+        },
+        {
+          "name": "Add two rolling HEAL 1, Self cards",
+          "uses": 2
+        },
+        {
+          "name": "Ignore negative item effects and remove one (-1) card",
+          "uses": 1
+        },
+        {
+          "name": "At the end of each of your long rests, grant one ally within Range 3, Move 2",
+          "uses": 1
+        },
+        {
+          "name": "Whenever you open a door with a move ability, add +3 Move",
+          "uses": 1
+        },
+        {
+          "name": "One each scenario, during you turn, gain Shield 2 for the round",
+          "uses": 2
+        }
+      ]
+    },
+    {
+      "name": "Blink Blade",
+      "hidden_name": "Blink Blade",
+      "icon": "quatryl-blinkblade.svg",
+      "from_game": "Frosthaven",
+      "perks": [
+        {
+          "name": "Remove one (-2) card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (-1) card with one (+1) card",
+          "uses": 2
+        },
+        {
+          "name": "Replace one (-1) card with one (+0) WOUND card",
+          "uses": 2
+        },
+        {
+          "name": "Replace one (+0) card with one (+1) IMMOBILIZE card",
+          "uses": 2
+        },
+        {
+          "name": "Replace one (+0) card with one Place this card in your active area. On your next attack, discard this card to add +2 ATTACK rolling card",
+          "uses": 3
+        },
+        {
+          "name": "Add one (-1) 'Add one Counter' card",
+          "uses": 2
+        },
+        {
+          "name": "Add one (+1) REGENERATE, Self card",
+          "uses": 2
+        },
+        {
+          "name": "Add three rolling MUDDLE cards",
+          "uses": 2
+        },
+        {
+          "name": "Add one (+1) IMMOBILIZE card",
+          "uses": 2
+        },
+        {
+          "name": "Ignore negative scenario effects and remove two (+0) cards",
+          "uses": 1
+        }
+      ]
+    },
+    {
+      "name": "Deathwalker",
+      "hidden_name": "Deathwalker",
+      "icon": "valrath-deathwalker.svg",
+      "from_game": "Frosthaven",
+      "perks": [
+        {
+          "name": "Remove two (-1) cards",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (-1) card with one (+1) card",
+          "uses": 3
+        },
+        {
+          "name": "Replace one (-2) card with one (-1) card and one (+1) card",
+          "uses": 1
+        },
+        {
+          "name": "Add two (+1) cards",
+          "uses": 2
+        },
+        {
+          "name": "Add three rolling PUSH 1 cards",
+          "uses": 1
+        },
+        {
+          "name": "Add two rolling WOUND cards",
+          "uses": 2
+        },
+        {
+          "name": "Add one rolling HEAL 2, Ally card",
+          "uses": 2
+        },
+        {
+          "name": "Add one (+2) DARK card",
+          "uses": 2
+        },
+        {
+          "name": "Ignore negative scenario effects and remove one (-1) card",
+          "uses": 1
+        }
+      ]
+    },
+    {
+      "name": "Drifter",
+      "hidden_name": "Drifter",
+      "icon": "inox-drifter.svg",
+      "from_game": "Frosthaven",
+      "perks": [
+        {
+          "name": "Remove four (+0) cards",
+          "uses": 1
+        },
+        {
+          "name": "Remove two (-1) cards",
+          "uses": 2
+        },
+        {
+          "name": "Remove one (-2) card",
+          "uses": 1
+        },
+        {
+          "name": "Add two (+1) cards",
+          "uses": 1
+        },
+        {
+          "name": "Add two rolling PIERCE 3 cards",
+          "uses": 2
+        },
+        {
+          "name": "Add three rolling PUSH 1 cards",
+          "uses": 2
+        },
+        {
+          "name": "Add three rolling MUDDLE cards",
+          "uses": 2
+        },
+        {
+          "name": "Add one rolling 'Move back one character token' card",
+          "uses": 2
+        },
+        {
+          "name": "Ignore negative scenario effects and add one (+1) card",
+          "uses": 1
+        },
+        {
+          "name": "Ignore negative item effects and add one (+1) card",
+          "uses": 1
+        }
+      ]
+    }
+  ]
 }
