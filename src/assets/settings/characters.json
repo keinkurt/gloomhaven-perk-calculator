@@ -27,15 +27,15 @@
           "uses": 2
         },
         {
-          "name": "Add two rolling PUSH 2 cards",
+          "name": "Add two ROLLING PUSH 2 cards",
           "uses": 1
         },
         {
-          "name": "Add two rolling EARTH cards",
+          "name": "Add two ROLLING EARTH cards",
           "uses": 2
         },
         {
-          "name": "Add two rolling WIND cards",
+          "name": "Add two ROLLING WIND cards",
           "uses": 1
         },
         {
@@ -75,23 +75,23 @@
           "uses": 2
         },
         {
-          "name": "Add two rolling (+1) cards",
+          "name": "Add two ROLLING (+1) cards",
           "uses": 2
         },
         {
-          "name": "Add two rolling PIERCE 3 cards",
+          "name": "Add two ROLLING PIERCE 3 cards",
           "uses": 1
         },
         {
-          "name": "Add two rolling POISON cards",
+          "name": "Add two ROLLING POISON cards",
           "uses": 2
         },
         {
-          "name": "Add two rolling MUDDLE cards",
+          "name": "Add two ROLLING MUDDLE cards",
           "uses": 1
         },
         {
-          "name": "Add one rolling INVISIBLE card",
+          "name": "Add one ROLLING INVISIBLE card",
           "uses": 1
         },
         {
@@ -123,27 +123,27 @@
           "uses": 1
         },
         {
-          "name": "Add three rolling PUSH 1 cards",
+          "name": "Add three ROLLING PUSH 1 cards",
           "uses": 2
         },
         {
-          "name": "Add two rolling PIERCE 3 cards",
+          "name": "Add two ROLLING PIERCE 3 cards",
           "uses": 1
         },
         {
-          "name": "Add one rolling STUN card",
+          "name": "Add one ROLLING STUN card",
           "uses": 2
         },
         {
-          "name": "Add one rolling DISARM and one rolling MUDDLE card",
+          "name": "Add one ROLLING DISARM and one ROLLING MUDDLE card",
           "uses": 1
         },
         {
-          "name": "Add one rolling ADD TARGET card",
+          "name": "Add one ROLLING ADD TARGET card",
           "uses": 2
         },
         {
-          "name": "Add one (+1) Shield 1, Self card",
+          "name": "Add one (+1) SHIELD 1, Self card",
           "uses": 1
         },
         {
@@ -195,11 +195,11 @@
           "uses": 2
         },
         {
-          "name": "Add one rolling EARTH and one rolling WIND card",
+          "name": "Add one ROLLING EARTH and one ROLLING WIND card",
           "uses": 1
         },
         {
-          "name": "Add one rolling SUN and one rolling DARK card",
+          "name": "Add one ROLLING SUN and one ROLLING DARK card",
           "uses": 1
         }
       ]
@@ -227,11 +227,11 @@
           "uses": 1
         },
         {
-          "name": "Add two rolling FIRE cards",
+          "name": "Add two ROLLING FIRE cards",
           "uses": 1
         },
         {
-          "name": "Add three rolling MUDDLE cards",
+          "name": "Add three ROLLING MUDDLE cards",
           "uses": 1
         },
         {
@@ -283,27 +283,27 @@
           "uses": 2
         },
         {
-          "name": "Add two rolling (+1) cards",
+          "name": "Add two ROLLING (+1) cards",
           "uses": 2
         },
         {
-          "name": "Add three rolling PULL 1 cards",
+          "name": "Add three ROLLING PULL 1 cards",
           "uses": 1
         },
         {
-          "name": "Add three rolling MUDDLE cards",
+          "name": "Add three ROLLING MUDDLE cards",
           "uses": 1
         },
         {
-          "name": "Add two rolling IMMOBILIZE cards",
+          "name": "Add two ROLLING IMMOBILIZE cards",
           "uses": 1
         },
         {
-          "name": "Add one rolling STUN card",
+          "name": "Add one ROLLING STUN card",
           "uses": 1
         },
         {
-          "name": "Add one rolling DISARM and one rolling MUDDLE card",
+          "name": "Add one ROLLING DISARM and one ROLLING MUDDLE card",
           "uses": 1
         },
         {
@@ -327,11 +327,11 @@
           "uses": 1
         },
         {
-          "name": "Replace two (+1) cards with one (+3) Shield 1, Self card",
+          "name": "Replace two (+1) cards with one (+3) SHIELD 1, Self card",
           "uses": 2
         },
         {
-          "name": "Replace one (+0) card with one (+1) Shield 1, Affect any ally card",
+          "name": "Replace one (+0) card with one (+1) SHIELD 1, Affect any ally card",
           "uses": 1
         },
         {
@@ -359,11 +359,11 @@
           "uses": 1
         },
         {
-          "name": "Add two rolling HEAL 1, Self cards",
+          "name": "Add two ROLLING HEAL 1, Self cards",
           "uses": 1
         },
         {
-          "name": "Add two rolling CURSE cards",
+          "name": "Add two ROLLING CURSE cards",
           "uses": 1
         },
         {
@@ -395,23 +395,23 @@
           "uses": 1
         },
         {
-          "name": "Add two rolling (+1) cards",
+          "name": "Add two ROLLING (+1) cards",
           "uses": 2
         },
         {
-          "name": "Add two rolling HEAL 1 cards",
+          "name": "Add two ROLLING HEAL 1 cards",
           "uses": 2
         },
         {
-          "name": "Add one rolling STUN card",
+          "name": "Add one ROLLING STUN card",
           "uses": 1
         },
         {
-          "name": "Add two rolling SUN cards",
+          "name": "Add two ROLLING SUN cards",
           "uses": 2
         },
         {
-          "name": "Add two rolling Shield 1, Self cards",
+          "name": "Add two ROLLING SHIELD 1, Self cards",
           "uses": 1
         },
         {
@@ -443,23 +443,23 @@
           "uses": 2
         },
         {
-          "name": "Add two rolling (+1) cards",
+          "name": "Add two ROLLING (+1) cards",
           "uses": 2
         },
         {
-          "name": "Add three rolling MUDDLE cards",
+          "name": "Add three ROLLING MUDDLE cards",
           "uses": 1
         },
         {
-          "name": "Add two rolling PIERCE 3 cards",
+          "name": "Add two ROLLING PIERCE 3 cards",
           "uses": 1
         },
         {
-          "name": "Add one rolling STUN card",
+          "name": "Add one ROLLING STUN card",
           "uses": 1
         },
         {
-          "name": "Add one rolling ADD TARGET card",
+          "name": "Add one ROLLING ADD TARGET card",
           "uses": 1
         },
         {
@@ -495,23 +495,23 @@
           "uses": 2
         },
         {
-          "name": "Add two rolling WOUND cards",
+          "name": "Add two ROLLING WOUND cards",
           "uses": 1
         },
         {
-          "name": "Add two rolling POISON cards",
+          "name": "Add two ROLLING POISON cards",
           "uses": 1
         },
         {
-          "name": "Add two rolling HEAL 1 cards",
+          "name": "Add two ROLLING HEAL 1 cards",
           "uses": 3
         },
         {
-          "name": "Add one rolling FIRE and one rolling WIND card",
+          "name": "Add one ROLLING FIRE and one ROLLING WIND card",
           "uses": 1
         },
         {
-          "name": "Add one rolling DARK and one rolling EARTH card",
+          "name": "Add one ROLLING DARK and one ROLLING EARTH card",
           "uses": 1
         },
         {
@@ -547,19 +547,19 @@
           "uses": 2
         },
         {
-          "name": "Add three rolling MUDDLE cards",
+          "name": "Add three ROLLING MUDDLE cards",
           "uses": 2
         },
         {
-          "name": "Add two rolling HEAL 1 cards",
+          "name": "Add two ROLLING HEAL 1 cards",
           "uses": 1
         },
         {
-          "name": "Add two rolling CURSE cards",
+          "name": "Add two ROLLING CURSE cards",
           "uses": 1
         },
         {
-          "name": "Add one rolling ADD TARGET card",
+          "name": "Add one ROLLING ADD TARGET card",
           "uses": 1
         },
         {
@@ -595,19 +595,19 @@
           "uses": 3
         },
         {
-          "name": "Add three rolling POISON cards",
+          "name": "Add three ROLLING POISON cards",
           "uses": 1
         },
         {
-          "name": "Add two rolling CURSE cards",
+          "name": "Add two ROLLING CURSE cards",
           "uses": 1
         },
         {
-          "name": "Add two rolling IMMOBILIZE cards",
+          "name": "Add two ROLLING IMMOBILIZE cards",
           "uses": 1
         },
         {
-          "name": "Add one rolling STUN card",
+          "name": "Add one ROLLING STUN card",
           "uses": 2
         },
         {
@@ -635,23 +635,23 @@
           "uses": 2
         },
         {
-          "name": "Replace one (+0) card with one rolling (+2) card",
+          "name": "Replace one (+0) card with one ROLLING (+2) card",
           "uses": 2
         },
         {
-          "name": "Add two rolling WOUND cards",
+          "name": "Add two ROLLING WOUND cards",
           "uses": 2
         },
         {
-          "name": "Add one rolling STUN card",
+          "name": "Add one ROLLING STUN card",
           "uses": 2
         },
         {
-          "name": "Add one rolling (+1) DISARM card",
+          "name": "Add one ROLLING (+1) DISARM card",
           "uses": 1
         },
         {
-          "name": "Add two rolling HEAL 1 cards",
+          "name": "Add two ROLLING HEAL 1 cards",
           "uses": 1
         },
         {
@@ -711,11 +711,11 @@
           "uses": 1
         },
         {
-          "name": "Add three rolling (+1) cards",
+          "name": "Add three ROLLING (+1) cards",
           "uses": 1
         },
         {
-          "name": "Add two rolling CURSE cards",
+          "name": "Add two ROLLING CURSE cards",
           "uses": 2
         }
       ]
@@ -735,7 +735,7 @@
           "uses": 3
         },
         {
-          "name": "Add two rolling (+1) cards",
+          "name": "Add two ROLLING (+1) cards",
           "uses": 2
         },
         {
@@ -759,7 +759,7 @@
           "uses": 1
         },
         {
-          "name": "Add one rolling ADD TARGET card",
+          "name": "Add one ROLLING ADD TARGET card",
           "uses": 2
         },
         {
@@ -787,7 +787,7 @@
           "uses": 2
         },
         {
-          "name": "Add one rolling (+2) card",
+          "name": "Add one ROLLING (+2) card",
           "uses": 2
         },
         {
@@ -795,15 +795,15 @@
           "uses": 2
         },
         {
-          "name": "Add two rolling WOUND cards",
+          "name": "Add two ROLLING WOUND cards",
           "uses": 2
         },
         {
-          "name": "Add one rolling STUN card",
+          "name": "Add one ROLLING STUN card",
           "uses": 1
         },
         {
-          "name": "Add one rolling HEAL 3 card",
+          "name": "Add one ROLLING HEAL 3 card",
           "uses": 2
         },
         {
@@ -899,11 +899,11 @@
           "uses": 2
         },
         {
-          "name": "Add two rolling HEAL 1 cards",
+          "name": "Add two ROLLING HEAL 1 cards",
           "uses": 3
         },
         {
-          "name": "Add two rolling EARTH cards",
+          "name": "Add two ROLLING EARTH cards",
           "uses": 1
         },
         {
@@ -1083,7 +1083,7 @@
           "uses": 2
         },
         {
-          "name": "Add one (+1) Shield 1 card",
+          "name": "Add one (+1) ROLLING 1 card",
           "uses": 2
         },
         {
@@ -1103,7 +1103,7 @@
       "from_game": "Frosthaven",
       "perks": [
         {
-          "name": "Replace one (-1) card with one rolling Shield 1 card",
+          "name": "Replace one (-1) card with one ROLLING SHIELD 1 card",
           "uses": 3
         },
         {
@@ -1119,11 +1119,11 @@
           "uses": 2
         },
         {
-          "name": "Add two rolling (+1) cards",
+          "name": "Add two ROLLING (+1) cards",
           "uses": 2
         },
         {
-          "name": "Add two rolling HEAL 1, Self cards",
+          "name": "Add two ROLLING HEAL 1, Self cards",
           "uses": 2
         },
         {
@@ -1131,7 +1131,7 @@
           "uses": 1
         },
         {
-          "name": "At the end of each of your long rests, grant one ally within Range 3, Move 2",
+          "name": "At the end of each of your long rests, grant one ally within RANGE 3 MOVE 2",
           "uses": 1
         },
         {
@@ -1139,7 +1139,7 @@
           "uses": 1
         },
         {
-          "name": "One each scenario, during you turn, gain Shield 2 for the round",
+          "name": "One each scenario, during you turn, gain SHIELD 2 for the round",
           "uses": 2
         }
       ]
@@ -1167,27 +1167,31 @@
           "uses": 2
         },
         {
-          "name": "Replace one (+0) card with one Place this card in your active area. On your next attack, discard this card to add +2 ATTACK rolling card",
+          "name": "Replace one (+0) card with one \"Place this card in your active area. On your next attack, discard this card to add +2 ATTACK ROLLING \" card",
           "uses": 3
         },
         {
-          "name": "Add one (-1) 'Add one Counter' card",
+          "name": "Replace two (+1) with two (+2) cards",
+          "uses": 1
+        },
+        {
+          "name": "Add one (-1) Gain 1 TIME_TOKEN card",
           "uses": 2
         },
         {
-          "name": "Add one (+1) REGENERATE, Self card",
+          "name": "Add one (+2) REGENERATE, self ROLLING card",
           "uses": 2
         },
         {
-          "name": "Add three rolling MUDDLE cards",
-          "uses": 2
+          "name": "Whenever you short rest, you may spend one unspent TAP_CARD item for no effect to RECOVER_CARD a different spent item",
+          "uses": 1
         },
         {
-          "name": "Add one (+1) IMMOBILIZE card",
-          "uses": 2
+          "name": "At the start of your first turn each scenario, you may perform MOVE 3",
+          "uses": 1
         },
         {
-          "name": "Ignore negative scenario effects and remove two (+0) cards",
+          "name": "Whenever you would gain IMMOBILIZE prevent the condition",
           "uses": 1
         }
       ]
@@ -1203,83 +1207,151 @@
           "uses": 1
         },
         {
+          "name": "Replace one (-2) card with one (+0) card",
+          "uses": 1
+        },
+        {
           "name": "Replace one (-1) card with one (+1) card",
           "uses": 3
         },
         {
-          "name": "Replace one (-2) card with one (-1) card and one (+1) card",
-          "uses": 1
-        },
-        {
-          "name": "Add two (+1) cards",
-          "uses": 2
-        },
-        {
-          "name": "Add three rolling PUSH 1 cards",
-          "uses": 1
-        },
-        {
-          "name": "Add two rolling WOUND cards",
-          "uses": 2
-        },
-        {
-          "name": "Add one rolling HEAL 2, Ally card",
-          "uses": 2
+          "name": "Replace one (+0) card with one (+1) CURSE card",
+          "uses": 3
         },
         {
           "name": "Add one (+2) DARK card",
           "uses": 2
         },
         {
-          "name": "Ignore negative scenario effects and remove one (-1) card",
+          "name": "Add one DISARM ROLLING and one MUDDLE ROLLING card",
+          "uses": 2
+        },
+        {
+          "name": "Add two HEAL 1, TARGET 1 ally ROLLING cards",
+          "uses": 2
+        },
+        {
+          "name": "Add one ROLLING HEAL 2, Ally card",
+          "uses": 2
+        },
+        {
+          "name": "Ignore negative scenario effects",
+          "uses": 1
+        },
+        {
+          "name": "Whenever you long rest, you may move one SHADOW up to three hexes",
+          "uses": 1
+        },
+        {
+          "name": "Whenever you short rest, you may consume DARK to perform MUDDLE , CURSE , RANGE 2 as if you where occupying a hex with a SHADOW",
+          "uses": 1
+        },
+        {
+          "name": "While you are occupying a hex with a SHADOW , all attacks targeting you gain disadvantage",
           "uses": 1
         }
       ]
     },
     {
-      "name": "Drifter",
-      "hidden_name": "Drifter",
-      "icon": "inox-drifter.svg",
+      "name": "Lurker Deepwraith",
+      "hidden_name": "Kelp",
+      "icon": "deepwraith.svg",
       "from_game": "Frosthaven",
       "perks": [
         {
-          "name": "Remove four (+0) cards",
+          "name": "Remove two (-1) cards",
           "uses": 1
         },
         {
-          "name": "Remove two (-1) cards",
+          "name": "Replace one (-1) card with one (+0) DISARM card",
           "uses": 2
         },
+        {
+          "name": "Replace one (-2) card with one (+1) STUN card",
+          "uses": 1
+        },
+        {
+          "name": "Replace one (+0) card with one (+0) INVISIBLE, self card",
+          "uses": 2
+        },
+        {
+          "name": "Replace one (+0) card with two PIERCE 3 ROLLING cards",
+          "uses": 2
+        },
+        {
+          "name": "Replace two (+1) cards with two (+2) cards",
+          "uses": 1
+        },
+        {
+          "name": "Replace three (+1) cards with three (+1) CURSE cards",
+          "uses": 1
+        },
+        {
+          "name": "Add two (+1) Gain 1 TROPHY cards",
+          "uses": 3
+        },
+        {
+          "name": "Ignore negative scenario effects and remove two (+0) cards",
+          "uses": 1
+        },
+        {
+          "name": "Whenever you long rest, you may LOOT one adjacent hex. If you gain any loot tokens, gain 1 TROPHY",
+          "uses": 1
+        },
+        {
+          "name": "At the start of each scenario, gain 2 TROPHY",
+          "uses": 1
+        },
+        {
+          "name": "While you have INVISIBLE , gain advantage on all your attacks",
+          "uses": 3
+        }
+      ]
+    },
+    {
+      "name": "Vermling Trapper",
+      "hidden_name": "Trap",
+      "icon": "trapper.svg",
+      "from_game": "Frosthaven",
+      "perks": [
         {
           "name": "Remove one (-2) card",
           "uses": 1
         },
         {
-          "name": "Add two (+1) cards",
+          "name": "Replace one (-1) card with one (+0) \"Create one HEAL 2 trap in an empty hex adjacent to the target\" card",
+          "uses": 2
+        },
+        {
+          "name": "Replace one (-1) card with one (+0) \"Create one DAMAGE 1 trap in an empty hex adjacent to the target\" card",
+          "uses": 3
+        },
+        {
+          "name": "Replace two (+0) cards with two (+0) \"Add DAMAGE 2 or HEAL 2 to a trap within RANGE 2 of you\" cards",
+          "uses": 3
+        },
+        {
+          "name": "Replace two (+1) cards with two (+2) IMMOBILIZE cards",
+          "uses": 2
+        },
+        {
+          "name": "Add two Add \" PUSH 2 od PULL 2\" ROLLING cards",
+          "uses": 3
+        },
+        {
+          "name": "Ignore negative scenario effects",
           "uses": 1
         },
         {
-          "name": "Add two rolling PIERCE 3 cards",
-          "uses": 2
-        },
-        {
-          "name": "Add three rolling PUSH 1 cards",
-          "uses": 2
-        },
-        {
-          "name": "Add three rolling MUDDLE cards",
-          "uses": 2
-        },
-        {
-          "name": "Add one rolling 'Move back one character token' card",
-          "uses": 2
-        },
-        {
-          "name": "Ignore negative scenario effects and add one (+1) card",
+          "name": "Whenever you long rest, you may create one DAMAGE 1 trap in an adjacent empty hex",
           "uses": 1
         },
         {
-          "name": "Ignore negative item effects and add one (+1) card",
+          "name": "Whenever you enter a hex with a trap, you may choose to not spring the trap",
+          "uses": 1
+        },
+        {
+          "name": "At the start of each scenario, you may create one DAMAGE 2 trap in an adjacent empty hex",
           "uses": 1
         }
       ]

@@ -1,7 +1,6 @@
 import * as Utils from './utils';
 
 
-
 const cardValue = {
   x0: (x: number) => x * 0,
   '-2': (x: number) => x - 2,
@@ -18,7 +17,7 @@ const cardValue = {
   Bless: (x: number) => x * 2,
 };
 
-function sum(cards: Record<string, number> ): number {
+function sum(cards: Record<string, number>): number {
   let result = 0;
   for (const key in cards) {
     if (cards.hasOwnProperty(key)) {
@@ -28,7 +27,7 @@ function sum(cards: Record<string, number> ): number {
   return result;
 }
 
-function nonRollingSum(cards: Record<string, number> ): number {
+function nonRollingSum(cards: Record<string, number>): number {
   let result = 0;
   for (const key in cards) {
     if (cards.hasOwnProperty(key)) {
@@ -38,7 +37,7 @@ function nonRollingSum(cards: Record<string, number> ): number {
   return result;
 }
 
-export function getCardsProbability(cards: Record<string, number> ): Record<string, number> {
+export function getCardsProbability(cards: Record<string, number>): Record<string, number> {
   const nrs = nonRollingSum(cards);
   const probabilities = {};
 
@@ -50,7 +49,7 @@ export function getCardsProbability(cards: Record<string, number> ): Record<stri
   return probabilities;
 }
 
-function getReliability(cards: Record<string, number> , rollingValue = 0, compareFunc: (x: number) => boolean) {
+function getReliability(cards: Record<string, number>, rollingValue = 0, compareFunc: (x: number) => boolean) {
   // The base damage from which to start calculating.
   // If ending value is less, reliability is negative, if same, neutral, and if more positive.
   const baseValue = 10;
@@ -77,30 +76,32 @@ function getReliability(cards: Record<string, number> , rollingValue = 0, compar
   return probability;
 }
 
-export function reliabilityNegative(cards: Record<string, number> ) {
+export function reliabilityNegative(cards: Record<string, number>) {
   const compareFunc = (x: number) => x < 0;
   const probability = getReliability(cards, 0, compareFunc);
   return probability;
 }
 
-export function reliabilityZero(cards: Record<string, number> ) {
+export function reliabilityZero(cards: Record<string, number>) {
   const compareFunc = (x: number) => x === 0;
   const probability = getReliability(cards, 0, compareFunc);
   return probability;
 }
 
-export function reliabilityPositive(cards: Record<string, number> ) {
+export function reliabilityPositive(cards: Record<string, number>) {
   const compareFunc = (x: number) => x > 0;
   const probability = getReliability(cards, 0, compareFunc);
   return probability;
 }
 
-export function getEffectsProbability(effects: Record<string, number> , probHistory = {}) {
+export function getEffectsProbability(effects: Record<string, number>, probHistory = {}) {
   const probabilities = {};
   const effectSum = sum(effects);
 
   for (const key in effects) {
-    if (effects[key] === 0) { continue; }
+    if (effects[key] === 0) {
+      continue;
+    }
     const label = key.replace('Rolling ', '').trim();
 
     if (key.startsWith('Rolling')) {
@@ -127,12 +128,14 @@ export function getEffectsProbability(effects: Record<string, number> , probHist
   return probabilities;
 }
 
-export function getAverageDamage(cards: Record<string, number> , baseDamage: number): number {
+export function getAverageDamage(cards: Record<string, number>, baseDamage: number): number {
   let damage = 0;
   const cardsSum = sum(cards);
 
   for (const key in cards) {
-    if (cards[key] === 0 || ['x0', 'Curse'].includes(key)) { continue; }
+    if (cards[key] === 0 || ['x0', 'Curse'].includes(key)) {
+      continue;
+    }
 
     if (key.startsWith('r')) {
       const newCards = Utils.clone(cards);
@@ -147,7 +150,7 @@ export function getAverageDamage(cards: Record<string, number> , baseDamage: num
   return damage;
 }
 
-export function getShuffleChance(cards: Record<string, number> , actionNumber: number) {
+export function getShuffleChance(cards: Record<string, number>, actionNumber: number) {
   const shuffleCards = cards.x0 + cards.x2;
   const nonRollingCards: number = nonRollingSum(cards);
 

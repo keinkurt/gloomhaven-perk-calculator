@@ -20,7 +20,7 @@ export function getCardsProbability(current: Deck, compare: Deck): StatsData[] {
     });
   }
 
-  // Change range of data from 0 - 1, to 0 - 100
+  // Change range of data from 0 to 1, to 0 to 100
   probData.forEach(item => Object.keys(item.data).forEach(key => item.data[key] = Math.round(item.data[key] * 100)));
 
   return probData;
@@ -29,7 +29,7 @@ export function getCardsProbability(current: Deck, compare: Deck): StatsData[] {
 export function getCardsProbabilityLabels(stats: StatsData[]): string[] {
   const labels: string[] = [...new Set(
     stats.map(stat =>
-      Object.keys(stat.data).filter(key => !['Bless', 'Curse'].includes(key) || stat.data[key] !== 0)
+      Object.keys(stat.data).filter(key => !['Bless', 'Curse', '+3', '+4', 'r+1', 'r+2'].includes(key) || stat.data[key] !== 0)
     ).reduce((a, b) => a.concat(b))
   )];
 
